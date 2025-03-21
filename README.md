@@ -50,3 +50,7 @@ Ketika mengakses url dengan '/sleep' dapat terlihat bahwa browser membutuhkan wa
 1. Penggunaan threadpool
 Dengan adanya threadpool servernya bisa menangani banyak request sekaligus. Saat mengakses url dengan '/sleep' dan tidak, server dapat merespon lebih cepat.
 
+## (Bonus) Function improvement
+
+1. Memisahkan ThreadPool
+Dengan memisahkan function threadpool ke function yang berbeda ini membuat functionnya lebih fleksible.
