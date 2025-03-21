@@ -29,3 +29,13 @@ Baris ini membuat respons HTTP lengkap dalam bentuk string.
 Baris ini mengirim respon HTTP ke klien melalui stream.
 
 ![Commit 2 screen capture](/assets/images/commit2.png)
+
+## Commit 3 Reflection 
+
+1. request_line
+Method sekarang akan memeriksa request line. Server akan memeriksa apakah request line yang diterima adalah HTTP 1.1 200 OK jika benar maka server akan menampilkan 'hello.html', dan jika tidak maka server akan menampilkan '404.html'
+
+2. Pemisahan logic
+Sebelumnya server memberikan halaman yang sama untuk semua request, sekarang server memberikan response sesuai dengan pilihan yang diberikan(if else). 
+
+![Commit 3 screen capture](/assets/images/commit3.png)
