@@ -39,3 +39,9 @@ Method sekarang akan memeriksa request line. Server akan memeriksa apakah reques
 Sebelumnya server memberikan halaman yang sama untuk semua request, sekarang server memberikan response sesuai dengan pilihan yang diberikan(if else). 
 
 ![Commit 3 screen capture](/assets/images/commit3.png)
+
+## Commit 4 Reflection
+
+1. Dampak pada '/sleep'
+Ketika mengakses url dengan '/sleep' dapat terlihat bahwa browser membutuhkan waktu yang lebih lama agar websitenya loading, saat saya membuka websitenya pada window lain tanpa '/sleep' responsenya cukup lama karena harus menyelesaikan request pertama.
+
