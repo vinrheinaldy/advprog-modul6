@@ -45,3 +45,8 @@ Sebelumnya server memberikan halaman yang sama untuk semua request, sekarang ser
 1. Dampak pada '/sleep'
 Ketika mengakses url dengan '/sleep' dapat terlihat bahwa browser membutuhkan waktu yang lebih lama agar websitenya loading, saat saya membuka websitenya pada window lain tanpa '/sleep' responsenya cukup lama karena harus menyelesaikan request pertama.
 
+## Commit 5 Reflection
+
+1. Penggunaan threadpool
+Dengan adanya threadpool servernya bisa menangani banyak request sekaligus. Saat mengakses url dengan '/sleep' dan tidak, server dapat merespon lebih cepat.
+
